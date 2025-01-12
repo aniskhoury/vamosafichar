@@ -1,3 +1,3 @@
 # vamosafichar
-Sistema de CRM en castellano. CRM y gestión de recursos humanos.
+Sistema para fichar, CRM y gestión de recursos humanos.
 
