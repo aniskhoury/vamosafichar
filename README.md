@@ -1,2 +1,3 @@
 # vamosafichar
-Sistema de fichaje, comercialización y gestión de recursos humanos.
+Sistema de CRM en castellano. CRM y gestión de recursos humanos.
+
