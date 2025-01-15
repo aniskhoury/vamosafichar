@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Vamos a fichar</title>
+        <link rel="stylesheet" type="text/css" href="/recursos/css/estilo.css">
+    </head>
+    <body>
+        <!--Menú parte superior -->
+        {{template "menuSuperior"}}
+    </body>
+    
+    <div style="padding-left:16px">
+        <center><h2>Autentificar</h2>
+            <br>
+        <form action="/autentificacion" method="post">
+            <label id="identificador">Identificador</label>
+            <input type="text" id="identificador" name="identificador"><br>
+            <label id="idContrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena"><br>
+            <input type="submit" value="Autentificar" >
+
+        </form>
+
+        Formulario registro de usuario:
+        <form action="/insertarUsuario" method="post">
+            <label id="identificador">Identificador</label>
+            <input type="text" id="identificador" name="identificador"><br>
+            <label id="idContrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena"><br>
+            <input type="submit" value="Registrar" >
+
+        </form>
+    </center>
+    </div>
+    
+</html>
